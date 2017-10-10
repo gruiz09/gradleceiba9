@@ -17,7 +17,7 @@ public class NotifyPersonServiceTest {
 		emailService = new EmailService();
 		notifyPersonService = new NotifyPersonService(emailService);
 	}
-
+	
 	@Test
 	public void notifyTest() {
 		//Arrange
@@ -27,4 +27,5 @@ public class NotifyPersonServiceTest {
 		//Assert
 		Assert.assertNotNull(message);
 	}
+
 }
